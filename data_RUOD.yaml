@@ -1,0 +1,9 @@
+train: ./RUOD_yolo/train/images  
+val: ./RUOD_yolo/val/images  
+test: ./RUOD_yolo/test/images
+
+# number of classes
+nc: 10
+
+# class names
+names: ['holothurian', 'echinus', 'scallop', 'starfish', 'fish', 'corals', 'diver', 'cuttlefish', 'turtle', 'jellyfish']
