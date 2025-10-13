@@ -6,16 +6,13 @@
 
 ARFNet is a novel real-time underwater object detection system that achieves optimal balance among inference speed, precision, and recall. The core innovations include:
 
-- **Shared Channel-Split Dual-Backbone (SCS-DB)**: Enables multi-scale feature reuse with reduced computational redundancy
-- **DualPath-iA Module**: Leverages adaptive window attention mechanism to enhance model generalization  
-- **SPD-Conv Replacement Strategy**: Preserves fine-grained features for small target detection
 
 ## 🎯 Performance
 
 | Dataset | mAP@0.5 | Recall | FPS |
 |---------|----------|---------|-----|
 | URPC2020 | 87.2% | 80.2% | 228 |
-| RUOD | 86.3% | 80.0% | 250 |
+| RUOD | 86.3% | 80.0% | 228 |
 
 ## 🚀 Quick Start
 
@@ -31,3 +28,4 @@ ARFNet is a novel real-time underwater object detection system that achieves opt
 ```bash
 git clone https://github.com/hyouxx/ARFNet.git
 cd ARFNet
+pip install -r requirements.txt
