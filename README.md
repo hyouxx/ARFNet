@@ -1,6 +1,6 @@
 # ARFNet: Enhancing Real-Time Underwater Object Detection via Adaptive Routing Fusion
 
-> **Important**: This repository contains the official implementation of the manuscript **"ARFNet: Enhancing Real-Time Underwater Object Detection via Adaptive Routing Fusion"** .
+> **Important**: This repository contains the official implementation of the manuscript **"ARFNet: Enhancing Real-Time Underwater Object Detection via Adaptive Routing Fusion"** submitted to **The Visual Computer**.
 
 ## 📖 Overview
 
